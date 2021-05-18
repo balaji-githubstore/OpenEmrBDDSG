@@ -12,7 +12,6 @@ public class DashboardPage {
 	private static By logoutLocator=By.xpath("//*[text()='Logout']");
 	private static By patientClientLocator=By.xpath("//*[text()='Patient/Client']");
 	private static By patientsLocator=By.xpath("//*[text()='Patients']");
-	
 	public static void waitForPresenceOfLogout()
 	{	
 		WebDriverWrapper.wait.until(ExpectedConditions.presenceOfElementLocated(logoutLocator));

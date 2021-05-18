@@ -5,7 +5,6 @@
 	<groupId>com.sg</groupId>
 	<artifactId>OpenEmrApplicationBDD</artifactId>
 	<version>1.0</version>
-	
 	<build>
 		<plugins>
 			<plugin>
