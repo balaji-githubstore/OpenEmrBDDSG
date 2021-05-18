@@ -27,7 +27,6 @@ public class WebDriverWrapper {
 	
 	public static void launchBrowser(String browser)
 	{
-
 		switch (browser.toLowerCase()) {
 		case "ff":
 		case "firefox":
