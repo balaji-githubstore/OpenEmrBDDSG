@@ -47,8 +47,7 @@ public class WebDriverWrapper {
 		
 		WebDriverWrapper.driver.manage().window().maximize();
 		WebDriverWrapper.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		WebDriverWrapper.driver.get("https://demo.openemr.io/b/openemr");
-		
+		WebDriverWrapper.driver.get("https://demo.openemr.io/b/openemr");	
 		WebDriverWrapper.wait=new WebDriverWait(WebDriverWrapper.driver, 50);
 		WebDriverWrapper.action=new Actions(WebDriverWrapper.driver);
 	}
