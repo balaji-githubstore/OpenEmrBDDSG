@@ -35,6 +35,7 @@ public class WebDriverWrapper {
 			break;
 		case "ie":
 		case "internetexplorer":
+		case "iebrowser":
 			WebDriverManager.iedriver().setup();
 			WebDriverWrapper.driver=new InternetExplorerDriver();
 			break;
